@@ -1,0 +1,61 @@
+<mxfile host="65bd71144e">
+    <diagram id="HI9hQD5d9mvR9CpimkPW" name="Страница 1">
+        <mxGraphModel dx="1204" dy="403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;fontFamily=Courier New;fontSize=20;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;font style=&quot;font-size: 20px&quot; face=&quot;Courier New&quot;&gt;Начало&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="12" width="320" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;fontSize=20;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Вывод в консоль приглашения ко вводу" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="111" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;fontFamily=Courier New;fontSize=20;" edge="1" parent="1" source="5" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Получение текстовых данных" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Courier New;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="245" y="203" width="310" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="edgeStyle=none;html=1;fontFamily=Courier New;fontSize=20;" edge="1" parent="1" source="7" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Разделение полученной строки на элементы по заданному символу-разделителю" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="291" width="300" height="98" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="edgeStyle=none;html=1;fontFamily=Courier New;fontSize=20;" edge="1" parent="1" source="9" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Добавление полученных элементов в массив исходных данных" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="422" width="300" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="edgeStyle=none;html=1;fontFamily=Courier New;fontSize=20;" edge="1" parent="1" source="11" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Получение массива искомых элементов" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="540" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="см. файл schema_new_array" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Courier New;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="542.5" width="200" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="edgeStyle=none;html=1;fontFamily=Courier New;fontSize=20;" edge="1" parent="1" source="14" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Вывод в консоль массива искомых элементов" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="630" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="см. файл schema_output_array" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Courier New;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="632.5" width="230" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Конец" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="720" width="320" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
