@@ -25,7 +25,7 @@ void ArrayOutput(string[] outputingArray)
     Console.Write("[");
     for (int i = 0; i < outputingArray.Length - 1; i++)
     {
-        Console.Write($"{outputingArray[i]}, ");
+        Console.Write($"{outputingArray[i]} ");
     }
     Console.Write($"{outputingArray[outputingArray.Length - 1]}]");
 }
